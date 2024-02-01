@@ -14,3 +14,11 @@ winget install Oracle.JavaRuntimeEnvironment
 winget install Adobe.Acrobat.Reader.64-bit
 winget install Famatech.AdvancedIPScanner
 
+### Listar pacotes disponíveis
+#winget search -q `"`"
+
+### Atualizar programas já instalados
+#winget upgrade --all
+
+### Descobrir ID de aplicação
+#winget search --id nomedaaplicação
