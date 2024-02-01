@@ -6,7 +6,7 @@ Set-ItemProperty -Path registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\C
 
 ### Instalar aplicações
 winget install Google.Chrome 
-winget install Google.ChromeRemoteDesktop 
+# winget install Google.ChromeRemoteDesktop 
 winget install RARLab.WinRAR 
 winget install AnyDeskSoftwareGmbH.AnyDesk 
 winget install AcroSoftware.CutePDFWriter 
@@ -15,10 +15,10 @@ winget install Adobe.Acrobat.Reader.64-bit
 winget install Famatech.AdvancedIPScanner
 
 ### Listar pacotes disponíveis
-#winget search -q `"`"
+# winget search -q `"`"
 
 ### Atualizar programas já instalados
-#winget upgrade --all
+# winget upgrade --all
 
 ### Descobrir ID de aplicação
-#winget search --id nomedaaplicação
+# winget search --id nomedaaplicação
