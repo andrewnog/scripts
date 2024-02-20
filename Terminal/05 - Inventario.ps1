@@ -1,6 +1,7 @@
 ﻿### Script para gerar informações sobre hardware e software do terminal Windows
+### Arquivo de inventário gerado em C:\Users\Public\Documents 
 
-$OutputFile = "C:\inventario.txt"
+$OutputFile = "C:\Users\Public\Documents\inventario.txt"
 
 ### Obter Fabricante
 wmic COMPUTERSYSTEM get Manufacturer | Out-File -FilePath $OutputFile -Encoding UTF8
