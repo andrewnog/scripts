@@ -12,6 +12,7 @@ winget install AnyDeskSoftwareGmbH.AnyDesk
 winget install AcroSoftware.CutePDFWriter 
 winget install Oracle.JavaRuntimeEnvironment 
 winget install Adobe.Acrobat.Reader.64-bit
+winget install OpenVPNTechnologies.OpenVPNConnect
 winget install Famatech.AdvancedIPScanner
 
 ### Listar pacotes disponíveis
