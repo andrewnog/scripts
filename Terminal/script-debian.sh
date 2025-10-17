@@ -120,6 +120,11 @@ aws --version
 echo Instalando GIMP
 sudo apt install gimp -y
 
+# Instalando dependências para VMware Workstation Pro
+echo Instalando dependências para VMware Workstation Pro
+sudo apt update
+sudo apt install build-essential linux-headers-$(uname -r)
+
 # Informações finais
 echo
 echo "✅ Instalações concluídas!"
