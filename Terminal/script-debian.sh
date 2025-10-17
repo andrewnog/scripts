@@ -62,9 +62,9 @@ sudo apt install -y terraform
 #sudo systemctl enable --now jenkins
 
 # Instalar Cockpit (gerenciamento via web)
-#echo "🖥️ Instalando Cockpit..."
-#sudo apt install -y cockpit
-#sudo systemctl enable --now cockpit.socket
+echo "🖥️ Instalando Cockpit..."
+sudo apt install -y cockpit
+sudo systemctl enable --now cockpit.socket
 
 # Criar estrutura de diretórios DevOps
 #echo "📁 Criando estrutura de diretórios..."
@@ -121,7 +121,7 @@ echo
 echo "✅ Instalações concluídas!"
 echo "🔹 Reinicie ou faça logout/login para ativar o grupo Docker."
 #echo "🔹 Jenkins: http://localhost:8080"
-#echo "🔹 Cockpit: https://localhost:9090"
+echo "🔹 Cockpit: https://localhost:9090"
 #echo "🔹 Diretórios criados em ~/devops/"
 echo
 echo "🚀 Script executado com sucesso!"
