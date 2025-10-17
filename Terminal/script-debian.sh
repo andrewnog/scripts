@@ -7,7 +7,7 @@
 
 set -e  # Interrompe em caso de erro
 
-echo "🚀 Iniciando configuração DevOps básica no Debian 13..."
+echo "🚀 Iniciando instalação de pacotes essenciais Linux..."
 
 # Atualizar sistema
 echo "📦 Atualizando pacotes..."
@@ -79,6 +79,7 @@ sudo apt update
 sudo apt install code
 
 # 10 Instalar AnyDesk
+echo Instalando AnyDesk
 # Add the AnyDesk GPG key
 sudo apt update
 sudo apt install ca-certificates curl apt-transport-https
@@ -105,12 +106,14 @@ sudo apt install libreoffice -y
 sudo apt install libreoffice-l10n-pt-br -y
 
 # Instalar AWS CLI
+echo Instalando AWS CLI
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
 sudo ./aws/install
 aws --version
 
 # Instalar GIMP
+echo Instalando GIMP
 sudo apt install gimp -y
 
 # Informações finais
