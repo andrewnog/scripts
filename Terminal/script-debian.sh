@@ -94,6 +94,10 @@ echo "deb [signed-by=/etc/apt/keyrings/keys.anydesk.com.asc] https://deb.anydesk
 sudo apt update
 sudo apt install anydesk
 
+# Instalar Remmina
+echo Instalando Remmina
+sudo apt install remmina -y
+
 # Instalar Spotify
 echo Instalando Spotify
 curl -sS https://download.spotify.com/debian/pubkey_C85668DF69375001.gpg | sudo gpg --dearmor --yes -o /etc/apt/trusted.gpg.d/spotify.gpg
